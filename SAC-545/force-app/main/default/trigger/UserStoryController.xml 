@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trigger>
+  <userStory>
+    <title>Display the user stories</title>
+    <description>As a user, I want to be able to view my fetched user stories from Jira and select the user stories so that I can access and review the details of the stories related to my project.</description>
+    <acceptanceCriteria>
+      <item>User stories should be successfully fetched from Jira API</item>
+      <item>User stories should be displayed in a readable and organized manner in the front-end application.</item>
+      <item>User stories should be displayed in real-time without any delay or lag.</item>
+    </acceptanceCriteria>
+    <acceptanceTesting>
+      <item>Verify that user stories are successfully fetched from Jira API</item>
+      <item>Verify that the fetched user stories are displayed correctly in the front-end application with the necessary details such as the story title, description, and assigned team member.</item>
+      <item>Verify that the user stories are displayed in real-time without any delay or lag.</item>
+    </acceptanceTesting>
+    <definitionOfDone>
+      <item>The user stories have been successfully fetched from Jira API and displayed in the front-end application.</item>
+      <item>The user stories are displayed in a readable and organized manner with the necessary details.</item>
+      <item>The user stories are displayed in real-time without any delay or lag.</item>
+      <item>All acceptance criteria and acceptance testing have been successfully met and verified.</item>
+    </definitionOfDone>
+  </userStory>
+</trigger>
